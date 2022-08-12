@@ -1,6 +1,6 @@
 package org.launchcode.studio7;
 
-public class CD extends BaseDisk implements OpticalDisk{
+public class CD extends ComputerDisk implements OpticalDisk{
     public CD() {
         super(700, 500);
     }

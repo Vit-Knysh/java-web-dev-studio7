@@ -2,7 +2,7 @@ package org.launchcode.studio7;
 
 import java.util.ArrayList;
 
-public class DVD extends BaseDisk implements OpticalDisk{
+public class DVD extends ComputerDisk implements OpticalDisk{
     public DVD(String title) {
         super(4000, 1600, title);
     }
